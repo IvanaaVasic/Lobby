@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+  }
+
+.first-part{
+    display: flex;
+    flex-direction: row;
+}
+.left-part{
+    background: url(../Mask_Group_20.png) -94px 0 no-repeat;
+    height: 768px;
+    flex: 1 1 0;
+}
+.right-part{
+    flex: 1 1 0;   
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+.navigation li {
+    padding: 0px 20px 10px 10px;
+  }
+nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #003537;
+  }
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+hr{
+    height: 7px;
+        background-color: #003537;
+        width: 10px;
+        
+}
