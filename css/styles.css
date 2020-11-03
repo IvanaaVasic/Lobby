@@ -279,6 +279,9 @@ hr{
     display: flex;
     position: absolute;
     bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .transparent-align{
     background-color: transparent;
@@ -286,6 +289,32 @@ hr{
     align-items: center;
     justify-content: center;
     display: flex;
-
-
+}
+.social-media-icon{
+    display: flex;
+    flex-direction: row;
+}
+.insta{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.face{
+    margin-right: 20px;
+}
+.copyright{
+    font-family: Dual300;
+    color:  #F2BE3A;
+    font-size: 18px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.info-style{
+    font-family: Dual300;
+    color:  #F2BE3A;
+    font-size: 18px;
+    margin-right: 10px;
+    border-right: 1px solid #F2BE3A;
+    padding-right: 10px;
 }
