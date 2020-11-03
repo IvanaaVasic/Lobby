@@ -20,7 +20,7 @@ body {
     flex-direction: row;
 }
 .left-part{
-    background: url(../Mask_Group_20.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_20.png) -94px 0 no-repeat;
     height: 768px;
     flex: 1 1 0;
 }
@@ -51,6 +51,8 @@ hr{
     height: 2px;
     background-color: #003537;
     width: 20px;
+    float: left;
+    margin: 0 0 0 10px;
         
 }
 .logo-main{
@@ -83,23 +85,24 @@ hr{
 }
 .box-1{
     flex: 1 1 0;
-    background: url(../Mask_Group_23.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_23.png) -94px 0 no-repeat;
     height: 384px;
 }
 .box-2{
     flex: 1 1 0;
     background-color: #003537;
-    background-image: url(../Lobby_logo_yellow_lines.svg);
+    background-image: url(../img/Lobby_logo_yellow_lines.svg);
     background-repeat: no-repeat;
     height: 384px;
     background-position-x: 50%;
     background-position-y: 50%;
+    background-size: 300px;
 
    
 }
 .box-3{
     flex: 1 1 0;
-    background: url(../Mask_Group_21.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_21.png) -94px 0 no-repeat;
     height: 384px;
 }
 .box-4{
@@ -114,7 +117,7 @@ hr{
 }
 .box-5{
     flex: 1 1 0;
-    background: url(../Mask_Group_22.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_22.png) -94px 0 no-repeat;
     height: 384px;
 }
 .box-6{
@@ -150,4 +153,93 @@ hr{
     color: #F2BE3A ;
     font-size: 24px;
    
+}
+.third-part{
+    height: 514px;
+    background-color: white;
+}
+.menu-header{
+    font-family: MadeSaonara;
+    color: #003537 ;
+    font-size: 53px;
+}
+.third-part{
+    display: flex;
+    flex-direction: row;
+}
+.button-menu{
+    font-family: Dual300;
+    color:  #003537 ;
+    font-size: 24px;
+}
+.left-section-menu{
+    flex: 1 1 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+
+}
+.right-section-menu{
+    background-image: url(../img/img_patern_1.svg);
+    background-repeat: no-repeat;
+    flex: 1 1 0;
+}
+.button-holder{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line-button{
+    width: 30px;
+    height: 2px;
+    background-color: #003537;
+    margin-right: 10px;
+}
+.fourth-part{
+    display: flex;
+    flex-direction: row;
+}
+.greed-1{
+    flex: 1 1 0;
+    background: url(../img/Mask_Group_21.png) -94px 0 no-repeat;
+    height: 384px;
+}
+.greed-2{
+    flex: 1 1 0;
+    background: url(../img/Mask_Group_26.png) -94px 0 no-repeat;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.greed-3{
+    flex: 1 1 0;
+    background: url(../img/Mask_Group_22.png) -94px 0 no-repeat;
+    height: 384px;
+}
+.transparent-box{
+    background-color: #003537 ;
+    opacity: 80%;
+    width: 425px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-header{
+    font-family: MadeSaonara;
+    color: #F2BE3A ;
+    font-size: 53px;
+}
+.description-2{
+    font-family: Dual300;
+    color:  #F2BE3A;
+    font-size: 24px;
+    border: 1px solid;
+    padding: 8px 20px;
+    text-decoration: none;
 }
