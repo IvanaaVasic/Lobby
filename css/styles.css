@@ -14,13 +14,17 @@
 body {
     margin: 0 auto;
   }
+  .main-container{
+      max-width: 1920px;
+      margin: 0 auto;
+  }
 
 .first-part{
     display: flex;
     flex-direction: row;
 }
 .left-part{
-    background: url(../img/Mask_Group_20.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_20.png) no-repeat;
     height: 768px;
     flex: 1 1 0;
 }
@@ -85,7 +89,7 @@ hr{
 }
 .box-1{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_23.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_23.png)  no-repeat;
     height: 384px;
 }
 .box-2{
@@ -102,7 +106,7 @@ hr{
 }
 .box-3{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_21.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_21.png)  no-repeat;
     height: 384px;
 }
 .box-4{
@@ -117,7 +121,7 @@ hr{
 }
 .box-5{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_22.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_22.png)  no-repeat;
     height: 384px;
 }
 .box-6{
@@ -203,12 +207,12 @@ hr{
 }
 .greed-1{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_21.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_21.png)  no-repeat;
     height: 384px;
 }
 .greed-2{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_26.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_26.png)  no-repeat;
     height: 384px;
     display: flex;
     align-items: center;
@@ -216,7 +220,7 @@ hr{
 }
 .greed-3{
     flex: 1 1 0;
-    background: url(../img/Mask_Group_22.png) -94px 0 no-repeat;
+    background: url(../img/Mask_Group_22.png)  no-repeat;
     height: 384px;
 }
 .transparent-box{
@@ -318,3 +322,4 @@ hr{
     border-right: 1px solid #F2BE3A;
     padding-right: 10px;
 }
+ 
