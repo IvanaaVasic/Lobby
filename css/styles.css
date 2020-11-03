@@ -157,16 +157,15 @@ hr{
 .third-part{
     height: 514px;
     background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 .menu-header{
     font-family: MadeSaonara;
     color: #003537 ;
     font-size: 53px;
 }
-.third-part{
-    display: flex;
-    flex-direction: row;
-}
+
 .button-menu{
     font-family: Dual300;
     color:  #003537 ;
@@ -235,11 +234,58 @@ hr{
     color: #F2BE3A ;
     font-size: 53px;
 }
-.description-2{
+.description-3{
     font-family: Dual300;
     color:  #F2BE3A;
     font-size: 24px;
     border: 1px solid;
     padding: 8px 20px;
     text-decoration: none;
+    margin-top: 10px;
+}
+.fifth-part{
+    height: 514px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.left-section-reservation{
+    background-image: url(../img/img_patern_12.svg);
+    background-repeat: no-repeat;
+    flex: 1 1 0;
+}
+.right-section-reservation{
+    flex: 1 1 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sixth-part{
+    background: url(../img/restaurant_4.png)  no-repeat;
+    height: 612px;
+    background-position-x: 0;
+    background-position-y: -500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 97px;
+    background-color: #003537 ;
+    opacity: 80%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.transparent-align{
+    background-color: transparent;
+    height: 515px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
 }
