@@ -1,3 +1,16 @@
+@font-face {
+    font-family: "Dual300";
+    src: url("../assets/Dual-300.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "MadeSaonara";
+    src: url("../assets/MADE_SAONARA.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
 body {
     margin: 0 auto;
   }
@@ -21,23 +34,120 @@ nav ul {
   }
   
 .navigation li {
-    padding: 0px 20px 10px 10px;
+    padding: 0px 20px 0px 10px;
   }
 nav a {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Dual300;
     color: #003537;
+    font-size: 18px;
   }
 .navigation{
     display: flex;
     justify-content: center;
 }
-nav a:hover {
-    text-decoration: underline;
-}
+
 hr{
-    height: 7px;
-        background-color: #003537;
-        width: 10px;
+    height: 2px;
+    background-color: #003537;
+    width: 20px;
         
+}
+.logo-main{
+    width: 120px;
+    position: absolute;
+    top: 5%;
+    left: 49%;
+    transform: translate(-49%, -49%);
+}
+
+.main-header{
+    font-family: MadeSaonara;
+    color: #003537 ;
+    font-size: 53px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+.under-header{
+    font-size: 24px;
+    color: #003537;
+    font-family: Dual300;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+.second-part{
+    display: flex;
+    flex-direction: row;
+}
+.box-1{
+    flex: 1 1 0;
+    background: url(../Mask_Group_23.png) -94px 0 no-repeat;
+    height: 384px;
+}
+.box-2{
+    flex: 1 1 0;
+    background-color: #003537;
+    background-image: url(../Lobby_logo_yellow_lines.svg);
+    background-repeat: no-repeat;
+    height: 384px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+
+   
+}
+.box-3{
+    flex: 1 1 0;
+    background: url(../Mask_Group_21.png) -94px 0 no-repeat;
+    height: 384px;
+}
+.box-4{
+    flex: 1 1 0;
+    background-color: #003537;
+    height: 384px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.box-5{
+    flex: 1 1 0;
+    background: url(../Mask_Group_22.png) -94px 0 no-repeat;
+    height: 384px;
+}
+.box-6{
+    flex: 1 1 0;
+    background-color: #003537;
+    height: 384px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+}
+.box-header-1{
+    font-family: MadeSaonara;
+    color: #F2BE3A ;
+    font-size: 53px;
+    
+}
+.description-1{
+    font-family: Dual300;
+    color: #F2BE3A ;
+    font-size: 24px;
+   
+}
+.box-header-2{
+    font-family: MadeSaonara;
+    color: #F2BE3A ;
+    font-size: 53px;
+    
+}
+.description-2{
+    font-family: Dual300;
+    color: #F2BE3A ;
+    font-size: 24px;
+   
 }
