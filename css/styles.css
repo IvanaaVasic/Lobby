@@ -44,7 +44,7 @@ nav a {
     text-decoration: none;
     font-family: Dual300;
     color: #003537;
-    font-size: 18px;
+    font-size: 1.4em;
   }
 .navigation{
     display: flex;
@@ -66,22 +66,26 @@ hr{
     left: 49%;
     transform: translate(-49%, -49%);
 }
-
+.header-align{
+    background-color: transparent;
+    height: 680px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px
+}
 .main-header{
     font-family: MadeSaonara;
     color: #003537 ;
     font-size: 53px;
-    position: absolute;
-    top: 50%;
-    left: 55%;
+    
 }
 .under-header{
     font-size: 24px;
     color: #003537;
     font-family: Dual300;
-    position: absolute;
-    top: 60%;
-    left: 55%;
+    
 }
 .second-part{
     display: flex;
@@ -322,4 +326,30 @@ hr{
     border-right: 1px solid #F2BE3A;
     padding-right: 10px;
 }
+
  
+
+
+.main-header{
+    font-size: 3em;
+}
+
+.under-header{
+
+    font-size:1.5em
+}
+
+
+
+/* asdasd */
+
+.page {
+    font-size: .8rem;
+   }
+   
+   
+@media only screen and (min-width: 1919px) {
+    .page {
+      font-size: 1.2rem;
+    }
+  } 
