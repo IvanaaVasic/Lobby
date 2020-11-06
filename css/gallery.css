@@ -54,6 +54,15 @@
     background-color: #003537 ;
     min-width: 340px;
 }
+.content-images{
+    display: flex;
+    flex-direction: row;
+
+}
+.images-representation{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .row {
