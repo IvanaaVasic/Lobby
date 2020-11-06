@@ -1,249 +1,239 @@
-.first-part{
-    display: flex;
-    flex-direction: row;
+.first-part {
+  display: flex;
+  flex-direction: row;
 }
-.left-part-meni{
-   flex: 1 1 0; 
-
+.left-part-meni {
+  flex: 1 1 0;
 }
-.green-part{
-    width: 340px;
-    background-color: #003537;
-    height: 768px;
-    position: relative;
+.green-part {
+  width: 340px;
+  background-color: #003537;
+  height: 768px;
+  position: relative;
 }
-.logo-blue{
-    width: 120px;
-    position: absolute;
-    top: 3%;
-    left: 440px;
-    
+.logo-blue {
+  width: 120px;
+  position: absolute;
+  top: 3%;
+  left: 440px;
 }
-.begining-image-holder{
-    width: 640px;
-    height: 496px;
-    background: url(../img/Mask_Group_201.png);
-    position: absolute;
-    top: 150px;
-    left: 65px;
+.begining-image-holder {
+  width: 640px;
+  height: 496px;
+  background: url(../img/Mask_Group_201.png);
+  position: absolute;
+  top: 150px;
+  left: 65px;
 }
-.right-part{
-    flex: 1 1 0;   
+.right-part {
+  flex: 1 1 0;
 }
 nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
 .navigation li {
-    padding: 0px 20px 0px 10px;
-  }
+  padding: 0px 20px 0px 10px;
+}
 nav a {
-    text-decoration: none;
-    font-family: Dual300;
-    color: #003537;
-    font-size: 18px;
-  }
-.navigation{
-    display: flex;
-    justify-content: center;
+  text-decoration: none;
+  font-family: Dual300;
+  color: #003537;
+  font-size: 18px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
 }
 
-.line{
-    height: 2px;
-    background-color: #003537;
-    width: 20px;
-    float: left;
-    margin: 0 0 0 10px;
-        
+.line {
+  height: 2px;
+  background-color: #003537;
+  width: 20px;
+  float: left;
+  margin: 0 0 0 10px;
 }
-.page-header-align{
-    background-color: transparent;
-    align-items: flex-start;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: column;
-    padding-left: 60px;
-    padding-top: 90px;
+.page-header-align {
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-top: 90px;
 }
-.main-meni-header{
-    font-family: MadeSaonara;
-    color: #003537 ;
-    font-size: 53px;
-    
+.main-meni-header {
+  font-family: MadeSaonara;
+  color: #003537;
+  font-size: 53px;
 }
-.header-line{
-    height: 1px;
-    width: 250px;
-    background-color: #380200;
-    float: left;
-    margin: 0 0 0 0px;
+.header-line {
+  height: 1px;
+  width: 250px;
+  background-color: #380200;
+  float: left;
+  margin: 0 0 0 0px;
 }
-.meni-under-header{
-    font-size: 24px;
-    color: #003537;
-    font-family: Dual300;
-    width: 531px;
-    text-align: justify;
-    
-    
+.meni-under-header {
+  font-size: 24px;
+  color: #003537;
+  font-family: Dual300;
+  width: 531px;
+  text-align: justify;
 }
-.menu-left-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 340px;
-    line-height: 290%;
-    background-color: #003537;
-    height: 600px;
+.menu-left-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  line-height: 290%;
+  background-color: #003537;
+  height: 600px;
 }
-.menu-left-bar a{
-    text-decoration: none;
-    font-size: 24px;
-    font-family: Dual300;
+.menu-left-bar a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Dual300;
 }
-.breakfast{
-    color: #F2BE3A;
-    border-right: 4px solid #F2BE3A;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transition: ease-out 0.5s;
+.breakfast {
+  color: #f2be3a;
+  border-right: 4px solid #f2be3a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: ease-out 0.5s;
 }
 
-.sidebar-item{
-    color: white;
+.sidebar-item {
+  color: white;
 }
 
-.sidebar-item:hover{
-    color: #F2BE3A;
+.sidebar-item:hover {
+  color: #f2be3a;
 }
 
 .sidebar-item.selected {
-    color: #F2BE3A;
-    border-right: 4px solid #F2BE3A;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  color: #f2be3a;
+  border-right: 4px solid #f2be3a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.content-food{
-    display: flex;
-    flex-direction: row;
-
+.content-food {
+  display: flex;
+  flex-direction: row;
 }
-.food-section{
-    display: flex;
-    flex-direction: row;
-    width: 1920px;
-   
+.food-section {
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
 }
-.food-section-header{
-    font-family: MadeSaonara;
-    color: #003537 ;
-    font-size: 36px;
-    padding-left: 30px;
-    display: flex;
-    align-self: flex-start;
+.food-section-header {
+  font-family: MadeSaonara;
+  color: #003537;
+  font-size: 36px;
+  padding-left: 30px;
+  display: flex;
+  align-self: flex-start;
 }
-.line-food-section{
-    height: 1px;
-    width: 100px;
-    background-color: #003537;
-    float: left;
-    margin: 10px 0 50px 30px;
-    display: flex;
-    align-self: flex-start;
+.line-food-section {
+  height: 1px;
+  width: 100px;
+  background-color: #003537;
+  float: left;
+  margin: 10px 0 50px 30px;
+  display: flex;
+  align-self: flex-start;
 }
-.row-food-options{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-    
+.row-food-options {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
-.first-colum-food-image{
-    width: 267px;
-    height: 317px;
-    background: url(../img/Mask_Group_30.png);
-    position: relative;
-    margin-right: 350px;
-    margin-left: 20px;
+.first-colum-food-image {
+  width: 267px;
+  height: 317px;
+  background: url(../img/Mask_Group_30.png);
+  position: relative;
+  margin-right: 350px;
+  margin-left: 20px;
 }
-.second-colum-food-image{
-    width: 267px;
-    height: 317px;
-    background: url(../img/Mask_Group_31.png);
-    position: relative;
+.second-colum-food-image {
+  width: 267px;
+  height: 317px;
+  background: url(../img/Mask_Group_31.png);
+  position: relative;
 }
-.description-food{
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 90px;
-    background-color: #380200;
-    opacity: 84%;
-    position: absolute;
-    top: 200px;
-    left: 70px;
-    padding: 10px 0px 0px 20px;
+.description-food {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 90px;
+  background-color: #380200;
+  opacity: 84%;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  padding: 10px 0px 0px 20px;
 }
-.food-name{
-    font-size: 24px;
-    font-family: Dual300;
-    color: white;
-    margin: 0px 0px 20px 0px;
+.food-name {
+  font-size: 24px;
+  font-family: Dual300;
+  color: white;
+  margin: 0px 0px 20px 0px;
 }
-.ingredients{
-    font-size: 18px;
-    font-family: Dual300;
-    color: white;
-    margin: 0px;
+.ingredients {
+  font-size: 18px;
+  font-family: Dual300;
+  color: white;
+  margin: 0px;
 }
-.description-food-2{
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 90px;
-    background-color: #003537;
-    opacity: 84%;
-    position: absolute;
-    top: 200px;
-    left: 70px;
-    padding: 10px 0px 0px 20px;
+.description-food-2 {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 90px;
+  background-color: #003537;
+  opacity: 84%;
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  padding: 10px 0px 0px 20px;
 }
-.price{
-    font-size: 18px;
-    font-family: Dual300;
-    color: white;
-    margin: 0px;
-    padding-right: 10px;
+.price {
+  font-size: 18px;
+  font-family: Dual300;
+  color: white;
+  margin: 0px;
+  padding-right: 10px;
 }
-.price-separation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.price-separation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.yellow{
-    color: #F2BE3A;
+.yellow {
+  color: #f2be3a;
 }
-.footer-nontransparent{
-    width: 100%;
-    height: 97px;
-    background-color: #003537 ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 999;
-    
+.footer-nontransparent {
+  width: 100%;
+  height: 97px;
+  background-color: #003537;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 999;
 }
-.left-green-part{
-    width: 340px;
-    height: auto;
-    background-color: #003537 ;
+.left-green-part {
+  width: 340px;
+  height: auto;
+  background-color: #003537;
 }
-.food-representation{
-    display: flex;
-    flex-direction: column;
+.food-representation {
+  display: flex;
+  flex-direction: column;
 }

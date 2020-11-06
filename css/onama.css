@@ -1,0 +1,46 @@
+.begining-image-holder-onama {
+  width: 640px;
+  height: 373px;
+  background: url(../img/Ammo-restaurant-Interior-1.png);
+  position: absolute;
+  top: 150px;
+  left: 65px;
+}
+.content-images {
+  display: flex;
+  flex-direction: row;
+}
+.image-section {
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+}
+.left-green-part-gallery {
+  width: 340px;
+  height: auto;
+  background-color: #003537;
+  min-width: 340px;
+}
+.meni-under-header {
+  font-size: 24px;
+  color: #003537;
+  font-family: Dual300;
+  width: 531px;
+  text-align: justify;
+}
+.green-part-onama {
+  width: 340px;
+  background-color: #003537;
+  height: 600px;
+  position: relative;
+}
+.down-text {
+  padding-left: 50px;
+}
+.image-next-to-text {
+  background-image: url(../img/img_patern_1.svg);
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  margin-left: 50px;
+}

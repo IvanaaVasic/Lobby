@@ -1,339 +1,323 @@
 @font-face {
-    font-family: "Dual300";
-    src: url("../assets/Dual-300.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "Dual300";
+  src: url("../assets/Dual-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: "MadeSaonara";
-    src: url("../assets/MADE_SAONARA.otf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "MadeSaonara";
+  src: url("../assets/MADE_SAONARA.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-    margin: 0 auto;
-  }
-  .main-container{
-      max-width: 1920px;
-      margin: 0 auto;
-  }
+  margin: 0 auto;
+}
+.main-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
 
-.first-part{
-    display: flex;
-    flex-direction: row;
+.first-part {
+  display: flex;
+  flex-direction: row;
 }
-.left-part{
-    background: url(../img/Mask_Group_20.png) no-repeat;
-    height: 768px;
-    flex: 1 1 0;
+.left-part {
+  background: url(../img/Mask_Group_20.png) no-repeat;
+  height: 768px;
+  flex: 1 1 0;
 }
-.right-part{
-    flex: 1 1 0;   
+.right-part {
+  flex: 1 1 0;
 }
 nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
 .navigation li {
-    padding: 0px 20px 0px 10px;
-  }
+  padding: 0px 20px 0px 10px;
+}
 nav a {
-    text-decoration: none;
-    font-family: Dual300;
-    color: #003537;
-    font-size: 18px;
-  }
-.navigation{
-    display: flex;
-    justify-content: center;
-    
+  text-decoration: none;
+  font-family: Dual300;
+  color: #003537;
+  font-size: 18px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
 }
 
-.line{
-    height: 2px;
-    background-color: #003537;
-    width: 20px;
-    float: left;
-    margin: 0 0 0 10px;
-        
+.line {
+  height: 2px;
+  background-color: #003537;
+  width: 20px;
+  float: left;
+  margin: 0 0 0 10px;
 }
-.line-holder{
-    display: flex;
-    flex-direction: column;
+.line-holder {
+  display: flex;
+  flex-direction: column;
 }
-.logo-main{
-    width: 120px;
-    position: absolute;
-    top: 5%;
-    left: 49%;
-    transform: translate(-49%, -49%);
+.logo-main {
+  width: 120px;
+  position: absolute;
+  top: 5%;
+  left: 49%;
+  transform: translate(-49%, -49%);
 }
-.header-align{
-    background-color: transparent;
-    height: 680px;
-    align-items: flex-start;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    padding-left: 60px
+.header-align {
+  background-color: transparent;
+  height: 680px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
 }
-.main-header{
-    font-family: MadeSaonara;
-    color: #003537 ;
-    font-size: 53px;
-    
+.main-header {
+  font-family: MadeSaonara;
+  color: #003537;
+  font-size: 53px;
 }
-.under-header{
-    font-size: 24px;
-    color: #003537;
-    font-family: Dual300;
-    
+.under-header {
+  font-size: 24px;
+  color: #003537;
+  font-family: Dual300;
 }
-.second-part{
-    display: flex;
-    flex-direction: row;
+.second-part {
+  display: flex;
+  flex-direction: row;
 }
-.box-1{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_23.png)  no-repeat;
-    height: 384px;
+.box-1 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_23.png) no-repeat;
+  height: 384px;
 }
-.box-2{
-    flex: 1 1 0;
-    background-color: #003537;
-    background-image: url(../img/Lobby_logo_yellow_lines.svg);
-    background-repeat: no-repeat;
-    height: 384px;
-    background-position-x: 50%;
-    background-position-y: 50%;
-    background-size: 300px;
-
-   
+.box-2 {
+  flex: 1 1 0;
+  background-color: #003537;
+  background-image: url(../img/Lobby_logo_yellow_lines.svg);
+  background-repeat: no-repeat;
+  height: 384px;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: 300px;
 }
-.box-3{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_21.png)  no-repeat;
-    height: 384px;
+.box-3 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_21.png) no-repeat;
+  height: 384px;
 }
-.box-4{
-    flex: 1 1 0;
-    background-color: #003537;
-    height: 384px;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-   
+.box-4 {
+  flex: 1 1 0;
+  background-color: #003537;
+  height: 384px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-.box-5{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_22.png)  no-repeat;
-    height: 384px;
+.box-5 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_22.png) no-repeat;
+  height: 384px;
 }
-.box-6{
-    flex: 1 1 0;
-    background-color: #003537;
-    height: 384px;
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-   
+.box-6 {
+  flex: 1 1 0;
+  background-color: #003537;
+  height: 384px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
-.box-header-1{
-    font-family: MadeSaonara;
-    color: #F2BE3A ;
-    font-size: 53px;
-    
+.box-header-1 {
+  font-family: MadeSaonara;
+  color: #f2be3a;
+  font-size: 53px;
 }
-.description-1{
-    font-family: Dual300;
-    color: #F2BE3A ;
-    font-size: 24px;
-   
+.description-1 {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 24px;
 }
-.box-header-2{
-    font-family: MadeSaonara;
-    color: #F2BE3A ;
-    font-size: 53px;
-    
+.box-header-2 {
+  font-family: MadeSaonara;
+  color: #f2be3a;
+  font-size: 53px;
 }
-.description-2{
-    font-family: Dual300;
-    color: #F2BE3A ;
-    font-size: 24px;
-   
+.description-2 {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 24px;
 }
-.third-part{
-    height: 514px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
+.third-part {
+  height: 514px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
 }
-.menu-header{
-    font-family: MadeSaonara;
-    color: #003537 ;
-    font-size: 53px;
+.menu-header {
+  font-family: MadeSaonara;
+  color: #003537;
+  font-size: 53px;
 }
 
-.button-menu{
-    font-family: Dual300;
-    color:  #003537 ;
-    font-size: 24px;
+.button-menu {
+  font-family: Dual300;
+  color: #003537;
+  font-size: 24px;
 }
-.left-section-menu{
-    flex: 1 1 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 100px;
-
+.left-section-menu {
+  flex: 1 1 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 100px;
 }
-.right-section-menu{
-    background-image: url(../img/img_patern_1.svg);
-    background-repeat: no-repeat;
-    flex: 1 1 0;
+.right-section-menu {
+  background-image: url(../img/img_patern_1.svg);
+  background-repeat: no-repeat;
+  flex: 1 1 0;
 }
-.button-holder{
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.button-holder {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.line-button{
-    width: 30px;
-    height: 2px;
-    background-color: #003537;
-    margin-right: 10px;
+.line-button {
+  width: 30px;
+  height: 2px;
+  background-color: #003537;
+  margin-right: 10px;
 }
-.fourth-part{
-    display: flex;
-    flex-direction: row;
+.fourth-part {
+  display: flex;
+  flex-direction: row;
 }
-.greed-1{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_21.png)  no-repeat;
-    height: 384px;
+.greed-1 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_21.png) no-repeat;
+  height: 384px;
 }
-.greed-2{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_26.png)  no-repeat;
-    height: 384px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.greed-2 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_26.png) no-repeat;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.greed-3{
-    flex: 1 1 0;
-    background: url(../img/Mask_Group_22.png)  no-repeat;
-    height: 384px;
+.greed-3 {
+  flex: 1 1 0;
+  background: url(../img/Mask_Group_22.png) no-repeat;
+  height: 384px;
 }
-.transparent-box{
-    background-color: #003537 ;
-    opacity: 80%;
-    width: 425px;
-    height: 212px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.transparent-box {
+  background-color: #003537;
+  opacity: 80%;
+  width: 425px;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.gallery-header{
-    font-family: MadeSaonara;
-    color: #F2BE3A ;
-    font-size: 53px;
+.gallery-header {
+  font-family: MadeSaonara;
+  color: #f2be3a;
+  font-size: 53px;
 }
-.description-3{
-    font-family: Dual300;
-    color:  #F2BE3A;
-    font-size: 24px;
-    border: 1px solid;
-    padding: 8px 20px;
-    text-decoration: none;
-    margin-top: 10px;
+.description-3 {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 24px;
+  border: 1px solid;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin-top: 10px;
 }
-.fifth-part{
-    height: 514px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
+.fifth-part {
+  height: 514px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
 }
-.left-section-reservation{
-    background-image: url(../img/img_patern_12.svg);
-    background-repeat: no-repeat;
-    flex: 1 1 0;
+.left-section-reservation {
+  background-image: url(../img/img_patern_12.svg);
+  background-repeat: no-repeat;
+  flex: 1 1 0;
 }
-.right-section-reservation{
-    flex: 1 1 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.right-section-reservation {
+  flex: 1 1 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.sixth-part{
-    background: url(../img/restaurant_4.png)  no-repeat;
-    height: 612px;
-    background-position-x: 0;
-    background-position-y: -500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.sixth-part {
+  background: url(../img/restaurant_4.png) no-repeat;
+  height: 612px;
+  background-position-x: 0;
+  background-position-y: -500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
-.footer{
-    width: 100%;
-    height: 97px;
-    background-color: #003537 ;
-    opacity: 80%;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+.footer {
+  width: 100%;
+  height: 97px;
+  background-color: #003537;
+  opacity: 80%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
-.transparent-align{
-    background-color: transparent;
-    height: 515px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+.transparent-align {
+  background-color: transparent;
+  height: 515px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-.social-media-icon{
-    display: flex;
-    flex-direction: row;
+.social-media-icon {
+  display: flex;
+  flex-direction: row;
 }
-.insta{
-    margin-right: 10px;
-    margin-left: 10px;
+.insta {
+  margin-right: 10px;
+  margin-left: 10px;
 }
-.face{
-    margin-right: 20px;
+.face {
+  margin-right: 20px;
 }
-.copyright{
-    font-family: Dual300;
-    color:  #F2BE3A;
-    font-size: 18px;
+.copyright {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 18px;
 }
-.info{
-    display: flex;
-    flex-direction: row;
+.info {
+  display: flex;
+  flex-direction: row;
 }
-.info-style{
-    font-family: Dual300;
-    color:  #F2BE3A;
-    font-size: 18px;
-    margin-right: 10px;
-    border-right: 1px solid #F2BE3A;
-    padding-right: 10px;
+.info-style {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 18px;
+  margin-right: 10px;
+  border-right: 1px solid #f2be3a;
+  padding-right: 10px;
 }
-
- 
-
 
 /*.main-header{
     font-size: 3em;
