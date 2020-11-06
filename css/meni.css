@@ -96,7 +96,7 @@ nav a {
     width: 340px;
     line-height: 290%;
     background-color: #003537;
-    height: 670px;
+    height: 600px;
 }
 .menu-left-bar a{
     text-decoration: none;
@@ -135,9 +135,9 @@ nav a {
 }
 .food-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 1920px;
-    padding-left: 340px;
+   
 }
 .food-section-header{
     font-family: MadeSaonara;
@@ -145,16 +145,16 @@ nav a {
     font-size: 36px;
     padding-left: 30px;
     display: flex;
-    align-self: center;
+    align-self: flex-start;
 }
 .line-food-section{
     height: 1px;
     width: 100px;
     background-color: #003537;
     float: left;
-    margin: 10px 0 50px 20px;
+    margin: 10px 0 50px 30px;
     display: flex;
-    align-self: center;
+    align-self: flex-start;
 }
 .row-food-options{
     display: flex;
@@ -237,4 +237,13 @@ nav a {
     justify-content: space-around;
     z-index: 999;
     
+}
+.left-green-part{
+    width: 340px;
+    height: auto;
+    background-color: #003537 ;
+}
+.food-representation{
+    display: flex;
+    flex-direction: column;
 }
