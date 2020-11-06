@@ -11,13 +11,15 @@ $(function() {
                     $('.menu-left-bar').css('margin-top', '');
                     $('.menu-left-bar').css('padding-top', '15px');
 
-                } else {
-                    var pos = $('.food-section').offset().top + $('.food-section').outerHeight(true) - $('.menu-left-bar').outerHeight(true) - 120;
-                    $('.menu-left-bar').css('position', 'absolute');
-                    $('.menu-left-bar').css('top', pos + 'px');
-                    $('.menu-left-bar').css('margin-top', '');
 
-                }
+                } 
+                // else {
+                //     var pos = $('.food-section').offset().top + $('.food-section').outerHeight(true) - $('.menu-left-bar').outerHeight(true) - 120;
+                //     $('.menu-left-bar').css('position', 'absolute');
+                //     $('.menu-left-bar').css('top', pos + 'px');
+                //     $('.menu-left-bar').css('margin-top', '');
+
+                // }
 
             } else {
                 $('.menu-left-bar').css('position', 'absolute');
