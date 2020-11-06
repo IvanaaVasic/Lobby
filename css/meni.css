@@ -96,6 +96,7 @@ nav a {
     line-height: 290%;
     background-color: #003537;
     height: 800px;
+   
     
     
 }
@@ -114,15 +115,21 @@ nav a {
 .text-color{
     color: white;
 }
-.bla{
+.text-color:hover{
+    color: #F2BE3A;
+}
+.content-food{
     display: flex;
     flex-direction: row;
 
 }
-.bla2{
+.food-section{
     height: 2000px;
     background-color: yellow;
-    width: 500px;
-    margin-left: 500px;
-
+   flex-grow: 2;
+}
+.food-section-header{
+    font-family: MadeSaonara;
+    color: #003537 ;
+    font-size: 53px;
 }
