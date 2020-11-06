@@ -29,3 +29,26 @@ $(function() {
         });
     }
 });
+
+
+
+
+function selectSidebarItem(event) {
+    document.querySelectorAll('.sidebar-item').forEach( el=> el.classList.remove('selected'))
+
+    event.target.classList.add('selected')
+// Remove 'selected' class from all sidebar items
+
+// Add 'selected' class to the clicked one
+}
+
+function init() {
+    // document.querySelector(".predjelo").onclick = changeColor1;
+    // document.querySelector(".salate").onclick = changeColor2;
+
+    document.querySelectorAll('.sidebar-item').forEach(
+        el => el.onclick = selectSidebarItem
+    )
+}
+
+window.onload = init();

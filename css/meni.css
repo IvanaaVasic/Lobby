@@ -10,6 +10,7 @@
     width: 340px;
     background-color: #003537;
     height: 768px;
+    position: relative;
 }
 .logo-blue{
     width: 120px;
@@ -111,13 +112,25 @@ nav a {
     width: 100%;
     display: flex;
     justify-content: center;
+    transition: ease-out 0.5s;
 }
-.text-color{
+
+.sidebar-item{
     color: white;
 }
-.text-color:hover{
+
+.sidebar-item:hover{
     color: #F2BE3A;
 }
+
+.sidebar-item.selected {
+    color: #F2BE3A;
+    border-right: 4px solid #F2BE3A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .content-food{
     display: flex;
     flex-direction: row;
@@ -125,11 +138,99 @@ nav a {
 }
 .food-section{
     height: 2000px;
-    background-color: yellow;
-   flex-grow: 2;
+    
+    display: flex;
+    flex-direction: column;
+   
+    width: 1920px;
+    padding-left: 340px;
+    
 }
-.food-section-header{
+#food-section-header{
     font-family: MadeSaonara;
     color: #003537 ;
     font-size: 53px;
+    padding-left: 30px;
+    display: flex;
+    align-self: center;
+}
+.line-food-section{
+    height: 1px;
+    width: 100px;
+    background-color: #003537;
+    float: left;
+    margin: 10px 0 50px 20px;
+    display: flex;
+    align-self: center;
+}
+.row-food-options{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+}
+.first-colum-food-image{
+    width: 267px;
+    height: 317px;
+    background: url(../img/Mask_Group_30.png);
+    position: relative;
+    margin-right: 350px;
+    margin-left: 20px;
+}
+.second-colum-food-image{
+    width: 267px;
+    height: 317px;
+    background: url(../img/Mask_Group_31.png);
+    position: relative;
+}
+.description-food{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 90px;
+    background-color: #380200;
+    opacity: 84%;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    padding: 10px 0px 0px 20px;
+}
+.food-name{
+    font-size: 24px;
+    font-family: Dual300;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+.ingredients{
+    font-size: 18px;
+    font-family: Dual300;
+    color: white;
+    margin: 0px;
+}
+.description-food-2{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 90px;
+    background-color: #003537;
+    opacity: 84%;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    padding: 10px 0px 0px 20px;
+}
+.price{
+    font-size: 18px;
+    font-family: Dual300;
+    color: white;
+    margin: 0px;
+    padding-right: 10px;
+}
+.price-separation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.yellow{
+    color: #F2BE3A;
 }
