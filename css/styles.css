@@ -44,20 +44,25 @@ nav a {
     text-decoration: none;
     font-family: Dual300;
     color: #003537;
-    font-size: 1.4em;
+    font-size: 18px;
   }
 .navigation{
     display: flex;
     justify-content: center;
+    
 }
 
-hr{
+.line{
     height: 2px;
     background-color: #003537;
     width: 20px;
     float: left;
     margin: 0 0 0 10px;
         
+}
+.line-holder{
+    display: flex;
+    flex-direction: column;
 }
 .logo-main{
     width: 120px;

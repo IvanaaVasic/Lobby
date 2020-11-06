@@ -1,0 +1,128 @@
+.first-part{
+    display: flex;
+    flex-direction: row;
+}
+.left-part-meni{
+   flex: 1 1 0; 
+
+}
+.green-part{
+    width: 340px;
+    background-color: #003537;
+    height: 768px;
+}
+.logo-blue{
+    width: 120px;
+    position: absolute;
+    top: 3%;
+    left: 440px;
+    
+}
+.begining-image-holder{
+    width: 640px;
+    height: 496px;
+    background: url(../img/Mask_Group_201.png);
+    position: absolute;
+    top: 150px;
+    left: 65px;
+}
+.right-part{
+    flex: 1 1 0;   
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  
+.navigation li {
+    padding: 0px 20px 0px 10px;
+  }
+nav a {
+    text-decoration: none;
+    font-family: Dual300;
+    color: #003537;
+    font-size: 18px;
+  }
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    height: 2px;
+    background-color: #003537;
+    width: 20px;
+    float: left;
+    margin: 0 0 0 10px;
+        
+}
+.page-header-align{
+    background-color: transparent;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 90px;
+}
+.main-meni-header{
+    font-family: MadeSaonara;
+    color: #003537 ;
+    font-size: 53px;
+    
+}
+.header-line{
+    height: 1px;
+    width: 250px;
+    background-color: #380200;
+    float: left;
+    margin: 0 0 0 0px;
+}
+.meni-under-header{
+    font-size: 24px;
+    color: #003537;
+    font-family: Dual300;
+    width: 531px;
+    text-align: justify;
+    
+    
+}
+.menu-left-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    line-height: 290%;
+    background-color: #003537;
+    height: 800px;
+    
+    
+}
+.menu-left-bar a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Dual300;
+}
+.breakfast{
+    color: #F2BE3A;
+    border-right: 4px solid #F2BE3A;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-color{
+    color: white;
+}
+.bla{
+    display: flex;
+    flex-direction: row;
+
+}
+.bla2{
+    height: 2000px;
+    background-color: yellow;
+    width: 500px;
+    margin-left: 500px;
+
+}
