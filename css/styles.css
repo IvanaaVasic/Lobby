@@ -318,7 +318,7 @@ nav a {
   border-right: 1px solid #f2be3a;
   padding-right: 10px;
 }
-.img-pater-mobil {
+.img-patern-mobil {
   display: none;
 }
 .second-part-mobile {
@@ -331,6 +331,9 @@ nav a {
   display: none;
 }
 .fourth-part-mobile-holder {
+  display: none;
+}
+.copyright-mobile {
   display: none;
 }
 /*.main-header{
@@ -488,7 +491,7 @@ nav a {
     padding-right: 0px;
   }
   .menu-header {
-    font-size: 40px;
+    font-size: 30px;
   }
   .img-patern-mobil {
     display: flex;
@@ -543,5 +546,67 @@ nav a {
   .description-3 {
     font-size: 20px;
     margin-top: 20px;
+  }
+  .fifth-part {
+    height: 280px;
+    align-items: center;
+  }
+  .left-section-reservation {
+    background-image: none;
+  }
+  .sixth-part {
+    background: url(../img/Mask_Group_67.png) no-repeat;
+    height: 378px;
+  }
+  .transparent-box {
+    background-color: #003537;
+    opacity: 80%;
+    width: 300px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-style {
+    font-family: Dual300;
+    color: #f2be3a;
+    font-size: 16px;
+    margin: 0px;
+    border-right: none;
+    padding-right: 0px;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyright-mobile {
+    display: flex;
+    font-family: Dual300;
+    color: #f2be3a;
+    font-size: 16px;
+    margin: 10px 0px 0px 0px;
+    border-right: none;
+    padding-right: 0px;
+    opacity: 70%;
+  }
+  .social-media-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 2px;
+  }
+  .footer {
+    position: relative;
+    height: 200px;
+  }
+  .face {
+    width: 25px;
+  }
+  .insta {
+    width: 25px;
   }
 }
