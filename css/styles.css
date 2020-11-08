@@ -321,7 +321,15 @@ nav a {
 .img-pater-mobil {
   display: none;
 }
-
+.second-part-mobile {
+  display: none;
+}
+.fourth-part-mobile {
+  display: none;
+}
+.logo-main-mobile {
+  display: none;
+}
 /*.main-header{
     font-size: 3em;
 }
@@ -403,6 +411,7 @@ nav a {
     top: 5%;
     left: 49%;
     transform: translate(-49%, -49%);
+    display: flex;
   }
   .logo-main {
     display: none;
@@ -478,7 +487,7 @@ nav a {
   .menu-header {
     font-size: 40px;
   }
-  .img-pater-mobil {
+  .img-patern-mobil {
     display: flex;
   }
   .right-section-menu {
