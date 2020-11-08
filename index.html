@@ -30,6 +30,23 @@
           </nav>
           <img src="img/Lobby_logo_halfcolor.svg" class="logo-main" />
           <img src="img/Lobby_logo_white.svg" class="logo-main-mobile" />
+          <span
+            class="nav-bar"
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
           <div class="header-align">
             <h class="main-header">LOREM IPSUM</h>
             <p class="under-header">Lorem Ipsum is simply dummy text</p>
@@ -148,5 +165,6 @@
         </div>
       </div>
     </div>
+    <script src="menu.js"></script>
   </body>
 </html>

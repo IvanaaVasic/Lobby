@@ -336,6 +336,12 @@ nav a {
 .copyright-mobile {
   display: none;
 }
+.nav-bar {
+  display: none;
+}
+.overlay {
+  display: none;
+}
 /*.main-header{
     font-size: 3em;
 }
@@ -418,6 +424,13 @@ nav a {
     left: 49%;
     transform: translate(-49%, -49%);
     display: flex;
+  }
+  .nav-bar {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 90%;
+    color: white;
   }
   .logo-main {
     display: none;
@@ -608,5 +621,48 @@ nav a {
   }
   .insta {
     width: 25px;
+  }
+  .overlay {
+    display: flex;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003537;
+    opacity: 90%;
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: Dual300;
+    color: #f2be3a;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
   }
 }
