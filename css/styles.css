@@ -44,7 +44,7 @@ nav a {
   text-decoration: none;
   font-family: Dual300;
   color: #003537;
-  font-size: 18px;
+  font-size: 20px;
 }
 .navigation {
   display: flex;
@@ -81,7 +81,7 @@ nav a {
 .main-header {
   font-family: MadeSaonara;
   color: #003537;
-  font-size: 53px;
+  font-size: 48px;
 }
 .under-header {
   font-size: 24px;
@@ -343,3 +343,42 @@ nav a {
     }
   } 
 */
+@media only screen and (max-width: 1500px) and (min-width: 400px) {
+  nav a {
+    font-size: 16px;
+  }
+  .main-header {
+    font-size: 40px;
+  }
+  .box-2 {
+    background-size: 270px;
+  }
+
+  element.style {
+  }
+  .box-header-2 {
+    font-size: 40px;
+  }
+  .box-header-1 {
+    font-size: 40px;
+  }
+  .menu-header {
+    font-size: 48px;
+  }
+  .gallery-header {
+    font-size: 48px;
+  }
+  .info-style {
+    font-size: 16px;
+  }
+  .copyright {
+    font-size: 16px;
+  }
+  .transparent-box {
+    width: 380px;
+    height: 200px;
+  }
+  .footer {
+    height: 80px;
+  }
+}

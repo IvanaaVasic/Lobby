@@ -44,3 +44,11 @@
   height: 400px;
   margin-left: 50px;
 }
+@media only screen and (max-width: 1500px) and (min-width: 400px) {
+  .green-part-onama {
+    width: 300px;
+  }
+  .begining-image-holder-onama {
+    width: 550px;
+  }
+}

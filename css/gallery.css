@@ -101,3 +101,26 @@
     max-width: 100%;
   }
 }
+
+@media only screen and (max-width: 1500px) and (min-width: 400px) {
+  .begining-image-holder-gallery {
+    width: 550px;
+    height: 400px;
+  }
+  .menu-left-bar-gallery {
+    width: 300px;
+  }
+  .left-green-part-gallery {
+    width: 300px;
+    min-width: 300px;
+  }
+  .menu-left-bar-gallery a {
+    font-size: 20px;
+  }
+  .image-section-header {
+    font-size: 30px;
+  }
+  .line-image-section {
+    height: 0.5px;
+  }
+}
