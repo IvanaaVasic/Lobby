@@ -504,7 +504,7 @@ nav a {
     padding-right: 0px;
   }
   .menu-header {
-    font-size: 30px;
+    font-size: 26px;
   }
   .img-patern-mobil {
     display: flex;
@@ -593,6 +593,7 @@ nav a {
     margin: 0px;
     border-right: none;
     padding-right: 0px;
+    padding-bottom: 5px;
   }
   .copyright {
     display: none;
@@ -614,7 +615,7 @@ nav a {
   }
   .footer {
     position: relative;
-    height: 200px;
+    height: 230px;
   }
   .face {
     width: 25px;
