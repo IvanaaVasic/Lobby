@@ -318,6 +318,9 @@ nav a {
   border-right: 1px solid #f2be3a;
   padding-right: 10px;
 }
+.img-pater-mobil {
+  display: none;
+}
 
 /*.main-header{
     font-size: 3em;
@@ -343,7 +346,7 @@ nav a {
     }
   } 
 */
-@media only screen and (max-width: 1500px) and (min-width: 400px) {
+@media only screen and (max-width: 1500px) and (min-width: 835px) {
   nav a {
     font-size: 16px;
   }
@@ -380,5 +383,105 @@ nav a {
   }
   .footer {
     height: 80px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .navigation {
+    display: none;
+  }
+  .first-part {
+    flex-direction: column;
+  }
+  .left-part {
+    background: url(../img/Mask_Group_61.png) no-repeat;
+    flex: none;
+    height: 524px;
+  }
+  .logo-main-mobile {
+    width: 120px;
+    position: absolute;
+    top: 5%;
+    left: 49%;
+    transform: translate(-49%, -49%);
+  }
+  .logo-main {
+    display: none;
+  }
+  .header-align {
+    height: 200px;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .main-header {
+    font-size: 36px;
+  }
+  .under-header {
+    font-size: 20px;
+  }
+  .second-part {
+    display: none;
+  }
+  .second-part-mobile {
+    display: flex;
+    flex-direction: row;
+  }
+  .box-1 {
+    height: 188px;
+    background: url(../img/Mask_Group_57.png) no-repeat;
+  }
+  .box-2 {
+    height: 188px;
+    background-size: 180px;
+  }
+  .box-3 {
+    height: 188px;
+    background-image: url(../img/Mask_Group_58.png);
+  }
+  .box-4 {
+    height: 188px;
+    align-items: flex-end;
+  }
+  .box-5 {
+    height: 188px;
+    background-image: url(../img/Mask_Group_59.png);
+  }
+  .box-6 {
+    height: 188px;
+    align-items: flex-start;
+  }
+  .box-header-1 {
+    font-size: 36px;
+    padding-right: 10px;
+  }
+  .description-1 {
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  .box-header-2 {
+    font-size: 36px;
+    padding-left: 10px;
+  }
+  .description-2 {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .third-part {
+    height: 280px;
+    align-items: center;
+  }
+  .button-menu {
+    font-size: 16px;
+  }
+  .left-section-menu {
+    padding-right: 0px;
+  }
+  .menu-header {
+    font-size: 40px;
+  }
+  .img-pater-mobil {
+    display: flex;
+  }
+  .right-section-menu {
+    background-image: none;
   }
 }
