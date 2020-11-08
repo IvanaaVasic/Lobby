@@ -538,7 +538,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 375px;
+    width: 100%;
   }
   .gallery-header {
     font-size: 40px;
