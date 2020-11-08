@@ -8,6 +8,15 @@
   height: 400px;
   position: relative;
 }
+.logo-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-header-holder {
+  display: flex;
+  flex-direction: column;
+}
 .info-map-holder {
   display: flex;
   flex-direction: row;
