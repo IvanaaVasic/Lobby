@@ -140,4 +140,7 @@
     height: 325px;
     width: 100%;
   }
+  .left-part-meni-contact {
+    flex: none;
+  }
 }
