@@ -336,6 +336,7 @@ nav a {
   }
   .first-part {
     flex-direction: column;
+    z-index: 999999;
   }
   .logo-text-holder {
     display: flex;
@@ -499,5 +500,8 @@ nav a {
     top: 1%;
     left: 90%;
     color: #003537;
+  }
+  .content-food {
+    z-index: 1;
   }
 }
