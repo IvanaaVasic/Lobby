@@ -208,6 +208,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    padding: 10px 0px 10px 0px;
   }
   .menu-left-bar-mobile-gallery a {
     font-size: 20px;
@@ -233,6 +234,6 @@
     margin: 10px 0 50px 30px;
   }
   .row {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 }
