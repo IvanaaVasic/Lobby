@@ -30,6 +30,24 @@
           <a href="index.html">
             <img src="img/Lobby_logo_blue.svg" class="logo-blue"
           /></a>
+          <span
+            class="nav-bar"
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="index.html">Početna</a>
+              <a href="onama.html">O Nama</a>
+              <a href="meni.html">Meni</a>
+              <a href="galerija.html">Galerija</a>
+              <a href="kontakt.html">Kontakt</a>
+            </div>
+          </div>
         </div>
         <div class="right-part">
           <nav class="navigation">
@@ -44,6 +62,7 @@
               <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
           </nav>
+          <div class="left-green-part-2"></div>
           <div class="page-header-align">
             <h class="main-meni-header">O NAMA</h>
             <hr class="header-line" />
@@ -63,17 +82,32 @@
       <div class="content-images">
         <div class="image-section">
           <div class="left-green-part-gallery"></div>
-          <p class="meni-under-header down-text">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page editors now use Lorem Ipsum as their default
-            model text, and a search for 'lorem ipsum' will uncover many web
-            sites still in their infancy.
-          </p>
-          <div class="image-next-to-text"></div>
+          <div class="text-image-onama-wrapper">
+            <p class="meni-under-header down-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy.
+            </p>
+            <div class="image-next-to-text"></div>
+          </div>
+          <div class="text-image-onama-wrapper-mobile">
+            <div class="image-next-to-text"></div>
+            <p class="meni-under-header down-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -87,9 +121,10 @@
           <p class="info-style">Adresa 53, Zlatibor 31315, Srbija</p>
           <p class="info-style">+381 64 307 38 13</p>
           <p class="info-style">lobby.restaurant@gmail.com</p>
+          <p class="copyright-mobile">Copyright © Lobby 2020</p>
         </div>
       </div>
     </div>
-    <script src="scroll.js"></script>
+    <script src="menu.js"></script>
   </body>
 </html>
