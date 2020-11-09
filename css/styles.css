@@ -641,6 +641,7 @@ nav a {
     opacity: 90%;
     -moz-opacity: 90%; /* Firefox and Mozilla browsers */
     -webkit-opacity: 90%; /* WebKit browser e.g. Safari */
+    filter: alpha(opacity=90);
     overflow-y: hidden;
     transition: 0.5s;
   }
