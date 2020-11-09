@@ -397,7 +397,7 @@ nav a {
     font-size: 20px;
     padding-right: 20px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family: Dual300;
   }
   .sidebar-item.selected {
@@ -412,7 +412,7 @@ nav a {
     flex-shrink: 1;
   }
   .food-section-header {
-    font-size: 32px;
+    font-size: 26px;
     padding-top: 20px;
   }
   .row-food-options {
