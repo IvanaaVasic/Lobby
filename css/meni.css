@@ -366,10 +366,9 @@ nav a {
     width: 253px;
   }
   .right-part {
-    top: 300px;
-    left: 30px;
     display: flex;
     flex-direction: row;
+    flex: none;
   }
   .menu-left-bar {
     display: none;
@@ -513,5 +512,8 @@ nav a {
     top: 1%;
     left: 90%;
     color: #003537;
+  }
+  .left-part-meni {
+    flex: none;
   }
 }
