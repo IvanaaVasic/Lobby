@@ -369,6 +369,7 @@ nav a {
     display: flex;
     flex-direction: row;
     flex: none;
+    height: 321px;
   }
   .menu-left-bar {
     display: none;
@@ -515,5 +516,6 @@ nav a {
   }
   .left-part-meni {
     flex: none;
+    height: 400px;
   }
 }
