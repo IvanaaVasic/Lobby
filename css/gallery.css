@@ -36,6 +36,7 @@
   line-height: 290%;
   background-color: #003537;
   height: 300px;
+  position: absolute;
 }
 .menu-left-bar-gallery a {
   text-decoration: none;
