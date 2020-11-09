@@ -139,8 +139,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #003537;
-    opacity: 90%;
+    background-color: rgb(0, 53, 55, 90%);
     overflow-y: hidden;
     transition: 0.5s;
   }
