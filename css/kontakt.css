@@ -94,3 +94,50 @@
     height: 300px;
   }
 }
+@media only screen and (max-width: 835px) {
+  .contact-menu {
+    width: 253px;
+  }
+  .green-part-contact {
+    width: 65px;
+    height: 300px;
+  }
+  .page-header-align {
+    padding: 50px 0px 20px 30px;
+  }
+  .info-map-holder {
+    margin-top: 50px;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .contact-info {
+    flex: none;
+    width: 100%;
+    background: url(../img/Mask_Group_86.png) no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    height: 325px;
+  }
+  .info-box {
+    width: 278px;
+    height: 277px;
+    justify-content: space-evenly;
+  }
+  .contact-information p {
+    margin: 2px 0px 20px 0px;
+    font-size: 14px;
+  }
+  .working-hours p {
+    margin: 2px 0px 10px 0px;
+
+    font-size: 14px;
+  }
+  .icons-contact img {
+    margin-bottom: 20px;
+    width: 20px;
+  }
+  .map-link {
+    height: 325px;
+    width: 100%;
+  }
+}
