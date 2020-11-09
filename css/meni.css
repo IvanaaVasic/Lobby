@@ -238,7 +238,9 @@ nav a {
   display: flex;
   flex-direction: column;
 }
-
+.menu-left-bar-mobile {
+  display: none;
+}
 @media only screen and (max-width: 1500px) and (min-width: 400px) {
   .begining-image-holder {
     width: 550px;
@@ -315,5 +317,137 @@ nav a {
   }
   .footer-nontransparent {
     height: 80px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .navigation {
+    display: none;
+  }
+  .green-part {
+    width: 65px;
+  }
+  .begining-image-holder {
+    width: 306px;
+    height: 209px;
+    background: url(../img/Mask_Group_68.png);
+    position: absolute;
+    top: 117px;
+    left: 33px;
+  }
+  .first-part {
+    flex-direction: column;
+  }
+  .logo-text-holder {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-meni-header {
+    font-size: 36px;
+  }
+  .header-line {
+    height: 0px;
+    width: 124px;
+  }
+  .meni-under-header {
+    font-size: 18px;
+    width: 253px;
+  }
+  .right-part {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+  }
+  .menu-left-bar {
+    display: none;
+
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+    line-height: 290%;
+    background-color: #003537;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .menu-left-bar-mobile {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+    line-height: 290%;
+    background-color: #003537;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .menu-left-bar-mobile a {
+    font-size: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Dual300;
+  }
+  .sidebar-item.selected {
+    border-right: none;
+    width: auto;
+    color: #f2be3a;
+    display: flex;
+    justify-content: center;
+  }
+  .left-green-part {
+    width: 65px;
+    flex-shrink: 1;
+  }
+  .food-section-header {
+    font-size: 32px;
+    padding-top: 20px;
+  }
+  .row-food-options {
+    flex-direction: column;
+  }
+  .first-colum-food-image {
+    width: 123px;
+    height: 145px;
+    background: url(../img/Mask_Group_3011.png);
+    margin: 0px 0px 30px 30px;
+  }
+  .second-colum-food-image {
+    width: 123px;
+    height: 145px;
+    background: url(../img/Mask_Group_3111.png);
+    margin-left: 30px;
+  }
+  .food-name {
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+  }
+  .ingredients {
+    font-size: 12px;
+  }
+  .price {
+    font-size: 12px;
+  }
+  .description-food {
+    width: 209px;
+    height: 45px;
+    top: 80px;
+    left: 20px;
+    padding: 10px 0px 0px 20px;
+  }
+  .description-food-2 {
+    width: 209px;
+    height: 41px;
+    top: 80px;
+    left: 20px;
+    padding: 10px 0px 0px 20px;
+  }
+  .footer-nontransparent {
+    position: relative;
+    height: 117px;
+  }
+  .food-representation {
+    flex-shrink: 117;
   }
 }
