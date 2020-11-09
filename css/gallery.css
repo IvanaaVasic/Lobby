@@ -55,6 +55,9 @@
 .left-green-part-2 {
   display: none;
 }
+.menu-left-bar-mobile-gallery {
+  display: none;
+}
 .content-images {
   display: flex;
   flex-direction: row;
