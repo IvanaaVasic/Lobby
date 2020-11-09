@@ -20,7 +20,7 @@
   align-self: flex-start;
 }
 .line-image-section {
-  height: 1px;
+  height: 0px;
   width: 100px;
   background-color: #003537;
   float: left;
