@@ -84,4 +84,7 @@
     height: 300px;
     margin-left: 10px;
   }
+  .down-text {
+    padding-left: 30px;
+  }
 }
