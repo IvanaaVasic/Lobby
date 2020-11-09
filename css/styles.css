@@ -315,6 +315,7 @@ nav a {
   margin-right: 10px;
   border-right: 1px solid #f2be3a;
   padding-right: 10px;
+  text-decoration: none;
 }
 .img-patern-mobil {
   display: none;
@@ -590,6 +591,7 @@ nav a {
     border-right: none;
     padding-right: 0px;
     padding-bottom: 5px;
+    text-decoration: none;
   }
   .copyright {
     display: none;
