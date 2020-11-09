@@ -42,6 +42,8 @@
   height: 550px;
   background-color: #003537;
   opacity: 80%;
+  -moz-opacity: 80%; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

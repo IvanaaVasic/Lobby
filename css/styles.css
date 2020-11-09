@@ -222,6 +222,8 @@ nav a {
 .transparent-box {
   background-color: #003537;
   opacity: 80%;
+  -moz-opacity: 80%; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
   width: 425px;
   height: 212px;
   display: flex;
@@ -537,6 +539,8 @@ nav a {
   .transparent-box-mobile {
     background-color: #003537;
     opacity: 80%;
+    -moz-opacity: 80%; /* Firefox and Mozilla browsers */
+    -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
     width: 300px;
     height: 151px;
     display: flex;
@@ -574,6 +578,8 @@ nav a {
   .transparent-box {
     background-color: #003537;
     opacity: 80%;
+    -moz-opacity: 80%; /* Firefox and Mozilla browsers */
+    -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
     width: 300px;
     height: 151px;
     display: flex;
@@ -633,6 +639,8 @@ nav a {
     left: 0;
     background-color: #003537;
     opacity: 90%;
+    -moz-opacity: 90%; /* Firefox and Mozilla browsers */
+    -webkit-opacity: 90%; /* WebKit browser e.g. Safari */
     overflow-y: hidden;
     transition: 0.5s;
   }

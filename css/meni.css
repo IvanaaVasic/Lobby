@@ -175,6 +175,8 @@ nav a {
   height: 90px;
   background-color: #380200;
   opacity: 84%;
+  -moz-opacity: 84%; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 84%; /* WebKit browser e.g. Safari */
   position: absolute;
   top: 200px;
   left: 70px;
@@ -199,6 +201,8 @@ nav a {
   height: 90px;
   background-color: #003537;
   opacity: 84%;
+  -moz-opacity: 84%; /* Firefox and Mozilla browsers */
+  -webkit-opacity: 84%; /* WebKit browser e.g. Safari */
   position: absolute;
   top: 200px;
   left: 70px;
@@ -473,6 +477,8 @@ nav a {
     left: 0;
     background-color: #003537;
     opacity: 90%;
+    -moz-opacity: 90%; /* Firefox and Mozilla browsers */
+    -webkit-opacity: 90%; /* WebKit browser e.g. Safari */
     overflow-y: hidden;
     transition: 0.5s;
   }
