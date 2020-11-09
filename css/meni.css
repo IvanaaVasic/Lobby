@@ -413,6 +413,7 @@ nav a {
   }
   .left-green-part {
     width: 65px;
+    flex-shrink: 1;
   }
   .food-section-header {
     font-size: 32px;
@@ -461,7 +462,9 @@ nav a {
     position: relative;
     height: 117px;
   }
-
+  .food-representation {
+    flex-shrink: 117;
+  }
   .overlay {
     display: flex;
     height: 0%;
