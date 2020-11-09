@@ -220,10 +220,7 @@ nav a {
   height: 384px;
 }
 .transparent-box {
-  background-color: #003537;
-  opacity: 80%;
-  -moz-opacity: 80%; /* Firefox and Mozilla browsers */
-  -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
+  background-color: rgb(0, 53, 55, 80%);
   width: 425px;
   height: 212px;
   display: flex;
@@ -276,8 +273,7 @@ nav a {
 .footer {
   width: 100%;
   height: 97px;
-  background-color: #003537;
-  opacity: 80%;
+  background-color: rgb(0, 53, 55, 80%);
   display: flex;
   position: absolute;
   bottom: 0;
@@ -537,10 +533,7 @@ nav a {
     display: none;
   }
   .transparent-box-mobile {
-    background-color: #003537;
-    opacity: 80%;
-    -moz-opacity: 80%; /* Firefox and Mozilla browsers */
-    -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
+    background-color: rgb(0, 53, 55, 80%);
     width: 300px;
     height: 151px;
     display: flex;
@@ -576,10 +569,7 @@ nav a {
     height: 378px;
   }
   .transparent-box {
-    background-color: #003537;
-    opacity: 80%;
-    -moz-opacity: 80%; /* Firefox and Mozilla browsers */
-    -webkit-opacity: 80%; /* WebKit browser e.g. Safari */
+    background-color: rgb(0, 53, 55, 80%);
     width: 300px;
     height: 151px;
     display: flex;
@@ -607,12 +597,11 @@ nav a {
   .copyright-mobile {
     display: flex;
     font-family: Dual300;
-    color: #f2be3a;
+    color: rgb(242, 190, 58, 70%);
     font-size: 16px;
     margin: 10px 0px 0px 0px;
     border-right: none;
     padding-right: 0px;
-    opacity: 70%;
   }
   .social-media-icon {
     position: absolute;
@@ -638,7 +627,6 @@ nav a {
     top: 0;
     left: 0;
     background-color: rgb(0, 53, 55, 90%);
-    opacity: 90%;
     overflow-y: hidden;
     transition: 0.5s;
   }
