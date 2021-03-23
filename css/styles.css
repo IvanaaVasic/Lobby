@@ -24,9 +24,13 @@ body {
   flex-direction: row;
 }
 .left-part {
-  background: url(../img/Mask_Group_20.png) no-repeat;
+  background: url(../img/main_princip.jpeg) no-repeat center center;
   height: 768px;
   flex: 1 1 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .right-part {
   flex: 1 1 0;
@@ -66,8 +70,9 @@ nav a {
   width: 120px;
   position: absolute;
   top: 5%;
-  left: 49%;
+
   transform: translate(-49%, -49%);
+  margin-top: 20px;
 }
 .header-align {
   background-color: transparent;
@@ -94,13 +99,17 @@ nav a {
 }
 .box-1 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_23.png) no-repeat;
+  background: url(../img/food.PNG) no-repeat center center;
   height: 384px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .box-2 {
   flex: 1 1 0;
   background-color: #003537;
-  background-image: url(../img/Lobby_logo_yellow_lines.svg);
+  background-image: url(../img/logo_princip_gold_new.svg);
   background-repeat: no-repeat;
   height: 384px;
   background-position-x: 50%;
@@ -109,8 +118,12 @@ nav a {
 }
 .box-3 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_21.png) no-repeat;
+  background: url(../img/kontakt.PNG) no-repeat center center;
   height: 384px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .box-4 {
   flex: 1 1 0;
@@ -123,7 +136,11 @@ nav a {
 }
 .box-5 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_22.png) no-repeat;
+  background: url(../img/princip.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 384px;
 }
 .box-6 {
@@ -181,8 +198,8 @@ nav a {
   padding-right: 100px;
 }
 .right-section-menu {
-  background-image: url(../img/img_patern_1.svg);
-  background-repeat: no-repeat;
+  background: url(../img/Group_16.png) no-repeat center center;
+
   flex: 1 1 0;
 }
 .button-holder {
@@ -203,21 +220,33 @@ nav a {
 }
 .greed-1 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_21.png) no-repeat;
+  background: url(../img/front.PNG) no-repeat;
   height: 384px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .greed-2 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_26.png) no-repeat;
+  background: url(../img/chairs.PNG) no-repeat center center;
   height: 384px;
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .greed-3 {
   flex: 1 1 0;
-  background: url(../img/Mask_Group_22.png) no-repeat;
+  background: url(../img/interior.PNG) no-repeat center center;
   height: 384px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .transparent-box {
   background-color: rgb(0, 53, 55, 80%);
@@ -249,8 +278,7 @@ nav a {
   flex-direction: row;
 }
 .left-section-reservation {
-  background-image: url(../img/img_patern_12.svg);
-  background-repeat: no-repeat;
+  background: url(../img/Group_15.png) no-repeat center center;
   flex: 1 1 0;
 }
 .right-section-reservation {
@@ -261,14 +289,17 @@ nav a {
   align-items: flex-start;
 }
 .sixth-part {
-  background: url(../img/restaurant_4.png) no-repeat;
+  background: url(../img/main_princip_blue.jpg) no-repeat center center;
   height: 612px;
   background-position-x: 0;
-  background-position-y: -500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .footer {
   width: 100%;
@@ -373,7 +404,7 @@ nav a {
     font-size: 40px;
   }
   .box-2 {
-    background-size: 270px;
+    background-size: 230px;
   }
 
   element.style {
@@ -412,9 +443,13 @@ nav a {
     flex-direction: column;
   }
   .left-part {
-    background: url(../img/Mask_Group_61.png) no-repeat;
+    background: url(../img/main_princip.jpeg) no-repeat center center;
     flex: none;
     height: 524px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .logo-main-mobile {
     width: 120px;
@@ -441,6 +476,7 @@ nav a {
   }
   .main-header {
     font-size: 36px;
+    text-align: center;
   }
   .under-header {
     font-size: 20px;
@@ -454,15 +490,23 @@ nav a {
   }
   .box-1 {
     height: 188px;
-    background: url(../img/Mask_Group_57.png) no-repeat;
+    background: url(../img/food.PNG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .box-2 {
     height: 188px;
-    background-size: 180px;
+    background-size: 130px;
   }
   .box-3 {
     height: 188px;
-    background-image: url(../img/Mask_Group_58.png);
+    background-image: url(../img/kontakt.PNG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .box-4 {
     height: 188px;
@@ -470,7 +514,7 @@ nav a {
   }
   .box-5 {
     height: 188px;
-    background-image: url(../img/Mask_Group_59.png);
+    background-image: url(../img/princip.jpeg) no-repeat center center;
   }
   .box-6 {
     height: 188px;
@@ -507,6 +551,7 @@ nav a {
   }
   .img-patern-mobil {
     display: flex;
+    padding-left: 20px;
   }
   .right-section-menu {
     background-image: none;
@@ -516,14 +561,22 @@ nav a {
     flex-direction: row;
   }
   .greed-1-mobile {
-    background-image: url(../img/Mask_Group_63.png);
+    background-image: url(../img/front.PNG);
     height: 188px;
     flex: 1 1 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .greed-2-mobile {
-    background-image: url(../img/Mask_Group_58.png);
+    background-image: url(../img/chairs.PNG);
     height: 188px;
     flex: 1 1 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .fourth-part-mobile-holder {
     display: flex;
@@ -566,8 +619,12 @@ nav a {
     background-image: none;
   }
   .sixth-part {
-    background: url(../img/Mask_Group_67.png) no-repeat;
+    background: url(../img/main_princip_blue.jpg) no-repeat center center;
     height: 378px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .transparent-box {
     background-color: rgb(0, 53, 55, 80%);
