@@ -162,16 +162,24 @@ nav a {
 .first-colum-food-image {
   width: 267px;
   height: 317px;
-  background: url(../img/Mask_Group_301.png);
+  background: url(../img/food.PNG) center center;
   position: relative;
   margin-right: 350px;
   margin-left: 30px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .second-colum-food-image {
   width: 267px;
   height: 317px;
-  background: url(../img/Mask_Group_311.png);
+  background: url(../img/food_2.PNG) center center;
   position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .description-food {
   display: flex;
@@ -293,16 +301,20 @@ nav a {
     width: 200px;
     height: 237px;
     margin-right: 280px;
-    background: url(../img/Mask_Group_30.png);
+    background: url(../img/food.PNG) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .description-food {
     top: 120px;
     left: 60px;
     width: 320px;
-    height: 80px;
+    height: 95px;
   }
   .food-name {
-    font-size: 20px;
+    font-size: 18px;
   }
   .ingredients {
     font-size: 16px;
@@ -314,12 +326,16 @@ nav a {
     top: 120px;
     left: 60px;
     width: 320px;
-    height: 80px;
+    height: 95px;
   }
   .second-colum-food-image {
     width: 200px;
     height: 237px;
-    background: url(../img/Mask_Group_31.png);
+    background: url(../img/food_2.PNG) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .footer-nontransparent {
     height: 80px;
@@ -430,14 +446,22 @@ nav a {
   .first-colum-food-image {
     width: 123px;
     height: 145px;
-    background: url(../img/Mask_Group_3011.png);
+    background: url(../img/food.PNG) center center;
     margin: 0px 0px 30px 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .second-colum-food-image {
     width: 123px;
     height: 145px;
-    background: url(../img/Mask_Group_3111.png);
+    background: url(../img/food_2.PNG) center center;
     margin-left: 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .food-name {
     font-size: 14px;
@@ -451,14 +475,14 @@ nav a {
   }
   .description-food {
     width: 209px;
-    height: 45px;
+    height: 70px;
     top: 80px;
     left: 20px;
     padding: 10px 0px 0px 20px;
   }
   .description-food-2 {
     width: 209px;
-    height: 41px;
+    height: 70px;
     top: 80px;
     left: 20px;
     padding: 10px 0px 0px 20px;
