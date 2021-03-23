@@ -67,10 +67,14 @@
   .begining-image-holder-onama {
     width: 306px;
     height: 209px;
-    background: url(../img/Mask_Group_413.png);
+    background: url(../img/front.PNG);
     position: absolute;
     top: 117px;
     left: 33px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .green-part-onama {
     width: 65px;

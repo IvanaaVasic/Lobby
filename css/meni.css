@@ -21,10 +21,14 @@
 .begining-image-holder {
   width: 640px;
   height: 496px;
-  background: url(../img/Mask_Group_201.png);
+  background: url(../img/food.PNG) center center;
   position: absolute;
   top: 150px;
   left: 65px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .right-part {
   flex: 1 1 0;
@@ -338,10 +342,14 @@ nav a {
   .begining-image-holder {
     width: 306px;
     height: 209px;
-    background: url(../img/Mask_Group_68.png);
+    background: url(../img/food.PNG) center center;
     position: absolute;
     top: 117px;
     left: 33px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .first-part {
     flex-direction: column;

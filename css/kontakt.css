@@ -26,13 +26,15 @@
 .contact-info {
   flex: 1 1 0;
   width: 100%;
-  background: url(../img/restaurant_4.png) no-repeat;
-  background-position-x: -800px;
-  background-position-y: -300px;
+  background: url(../img/main_princip_blue.jpg) no-repeat center center;
   height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .map {
   flex: 1 1 0;
@@ -111,10 +113,12 @@
   .contact-info {
     flex: none;
     width: 100%;
-    background: url(../img/Mask_Group_86.png) no-repeat;
-    background-position-x: 0px;
-    background-position-y: 0px;
+    background: url(../img/main_princip_blue.jpg) no-repeat center center;
     height: 325px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .info-box {
     width: 278px;
