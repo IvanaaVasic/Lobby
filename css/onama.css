@@ -1,10 +1,14 @@
 .begining-image-holder-onama {
   width: 640px;
   height: 373px;
-  background: url(../img/Ammo-restaurant-Interior-1.png);
+  background: url(../img/front.PNG) no-repeat;
   position: absolute;
   top: 150px;
   left: 65px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .content-images {
   display: flex;
