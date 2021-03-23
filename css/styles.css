@@ -348,6 +348,19 @@ nav a {
   padding-right: 10px;
   text-decoration: none;
 }
+.info-style-adress {
+  font-family: Dual300;
+  color: #f2be3a;
+  font-size: 18px;
+  margin-right: 10px;
+  border-right: 1px solid #f2be3a;
+  padding-right: 10px;
+  text-decoration: none;
+  display: block;
+}
+.info-style-mobile {
+  display: none;
+}
 .img-patern-mobil {
   display: none;
 }
@@ -423,6 +436,12 @@ nav a {
   }
   .info-style {
     font-size: 16px;
+  }
+  .info-style-adress {
+    font-size: 16px;
+  }
+  .info-style-mobile {
+    display: none;
   }
   .copyright {
     font-size: 16px;
@@ -649,6 +668,21 @@ nav a {
     padding-right: 0px;
     padding-bottom: 5px;
     text-decoration: none;
+  }
+  .info-style-adress {
+    display: none;
+  }
+  .info-style-mobile {
+    display: block;
+    font-family: Dual300;
+    color: #f2be3a;
+    font-size: 16px;
+    margin: 0px;
+    border-right: none;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
   }
   .copyright {
     display: none;

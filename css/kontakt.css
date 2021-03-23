@@ -69,6 +69,7 @@
   font-family: Dual300;
   color: #f2be3a;
   font-size: 18px;
+  text-align: center;
 }
 .working-hours {
   display: flex;
